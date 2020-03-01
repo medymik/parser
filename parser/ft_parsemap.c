@@ -69,7 +69,6 @@ int		ft_parsemap(char	*line)
 		parseline(line);
 		return (1);
 	}
-	ft_tableclear(g_e.map);
 	ft_puterror("Invalid map");
 	return (0);
 }
